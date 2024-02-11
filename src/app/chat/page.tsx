@@ -18,7 +18,7 @@ export default function Page() {
 
   const [input, setInput] = useState('');
 
-  const handleSubmitChat = async (event) => {
+  const handleSubmitChat = async (event: any) => {
     event.preventDefault();
     await sendChat(globalMessages, input);
   }

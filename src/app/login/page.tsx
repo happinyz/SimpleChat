@@ -14,9 +14,13 @@ export default function Page() {
 
   const { register, handleSubmit } = useForm();
 
-  const handleSignup = ({email, password}) => {
-    // alert(JSON.stringify(formData))
-    signUpWithEmail(email, password);
+  // const handleSignup = ({email, password}) => {
+  //   // alert(JSON.stringify(formData))
+  //   signUpWithEmail(email, password);
+  // }
+
+  const handleSignup = () => {
+    return;
   }
 
   return (
